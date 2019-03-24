@@ -1,0 +1,44 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+/*Navigation Styles*/
+nav{
+	background-color:black;
+	text-align:center;
+}
+
+nav ul{
+	list-style:none;
+}
+nav li{
+	display: inline;
+}
+nav a{
+	display:inline-block;
+	padding:20px;
+	text-decoration:none;
+	color:white;
+}
+nav a:hover{
+	background-color:aqua;
+	color:black;
+}
+/*End Navigation Styles*/
+#title{
+	text-align:center;
+	margin-top:100px;
+}
+body{
+	background-color:aqua;
+}
+div a{
+	color:black;
+	text-decoration:none;
+	display:inline-block;
+	list-style-type:none;
+}
+div a:hover{
+	color:white;
+}
